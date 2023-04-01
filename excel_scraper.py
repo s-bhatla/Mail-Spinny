@@ -25,7 +25,6 @@ def replaceWords(body, arr, it):
 
     for i in range(len(LocalBody)):
         if("\n" in LocalBody[i]):
-            print("do sth i guess")
             newlinesep = LocalBody[i].split("\n")
             for j in range(len(newlinesep)):
                 newlinesep = punctsreplace(newlinesep, arr, it, j)
