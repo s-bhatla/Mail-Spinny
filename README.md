@@ -12,7 +12,7 @@ In summary, this Python utility script project is an efficient way to automate t
 ## Usage
 1. Get the latest version of python (built with 3.11) and install numpy and pandas
 2. Follow the steps in this documentation to get the Gmail API keys as a 'credentials.json' file: https://developers.google.com/gmail/api/quickstart/python
-3. Authorize the mail that you will be using to send the emails as a test email from the google cloud console platform, and download the dependencies from 
+3. Authorize the mail that you will be using to send the emails as a test email from the google cloud console platform, and download the dependencies that are mentioned in the above documentation. 
 3. Store the csv file that you want to use as 'data.csv' and store a 'body.txt' file in the same folder as the script(See the example files provided). The script will replace any words that match with the column names in 'data.csv' with their values in from the 'body.txt' file and send that mail to the 'company email'.
 
 
