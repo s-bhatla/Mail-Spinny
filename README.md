@@ -1,12 +1,12 @@
 # Mail-Spinny
 
-Mail Spinny is a python utility script designed to automate the process of sending sponsorship emails to different companies. The script replaces specified words in the mail body (for example "company name," "contact number," and "contact name") with data from a CSV file containing the relevant information, and automatically send the mail to all the company mails listed in the CSV file.
+Mail Spinny is a python utility script designed to automate the process of sending cold emails to different organizations/individuals. The script replaces specified words in the mail body (for example "company name," "contact number," and "contact name") with data from a CSV file containing the relevant information, and automatically send the mail to all the company mails listed in the CSV file.
 
-The script can be used to send multiple emails with personalized information to different companies, making it a valuable tool for individuals or organizations seeking sponsorship. This functionality allows users to create a personalized email template and automate the process of sending sponsorship requests to multiple companies.
+The script can be used to send multiple emails with personalized information to different companies, making it a valuable tool for individuals or organizations seeking sponsorship, referrals, etc. This functionality allows users to create a personalized email template and automate the process of sending cold emails to multiple parties.
 
 The script is is fully customizable and can be changed to the specific needs just by changing the column names in the csv files
 
-In summary, this Python utility script project is an efficient way to automate the process of sending sponsorship emails, reducing the time and effort required for manual processing. It is a valuable tool for individuals or organizations seeking sponsorship, providing a customizable and organized method for sending multiple emails to different companies.
+In summary, this Python utility script project is an efficient way to automate the process of sending cold emails, reducing the time and effort required for manual processing. It is a valuable tool for individuals or organizations seeking sponsorship, providing a customizable and organized method for sending multiple emails to different organizations.
 
 
 ## Usage
