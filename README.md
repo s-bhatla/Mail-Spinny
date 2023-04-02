@@ -14,5 +14,19 @@ In summary, this Python utility script project is an efficient way to automate t
 2. Follow the steps in this documentation to get the Gmail API keys as a 'credentials.json' file: https://developers.google.com/gmail/api/quickstart/python
 3. Authorize the mail that you will be using to send the emails as a test email from the google cloud console platform, and download the dependencies that are mentioned in the above documentation. 
 3. Store the csv file that you want to use as 'data.csv' and store a 'body.txt' file in the same folder as the script(See the example files provided). The script will replace any words that match with the column names in 'data.csv' with their values in from the 'body.txt' file and send that mail to the 'company email'.
+4. Run the 'send_mail.py' file.
 
 
+## Example
+Here is an example of the body and the subject file.
+<img width="677" alt="body" src="https://user-images.githubusercontent.com/67830226/229368415-765d338f-9394-47ba-8b4a-a67939db226a.png">
+<img width="296" alt="subject" src="https://user-images.githubusercontent.com/67830226/229368425-754c4359-9409-4115-8f65-df17e533858e.png">
+
+Here is the data.csv file. Note that the column names here match the specific strings that we need to replace in the body of the mail.
+<img width="922" alt="data" src="https://user-images.githubusercontent.com/67830226/229368419-f3381e77-f63b-4ee9-81d3-98cac72be6a2.png">
+
+This is the output we will get after running the send_mail.py script and successfully authorizing the Gmail account.
+<img width="741" alt="output" src="https://user-images.githubusercontent.com/67830226/229368423-caf268ae-4346-446a-9437-bace2bd6f130.png">
+
+This is the sent mail. Note that the keywords are replaced as per the data file.
+<img width="739" alt="sent_mail" src="https://user-images.githubusercontent.com/67830226/229368424-5bdb2757-7c01-40c2-b08c-e5f9b119fdc2.png">
