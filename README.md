@@ -1,6 +1,6 @@
 # Mail-Spinny
 
-Mail Spinny is a python utility script designed to automate the process of sending sponsorship emails to different companies. The script replaces specified words such as "company name," "contact number," and "contact name" with data from a CSV file containing the relevant information, and automatically send the mail to all the company mails listed in the CSV file.
+Mail Spinny is a python utility script designed to automate the process of sending sponsorship emails to different companies. The script replaces specified words in the mail body (for example "company name," "contact number," and "contact name") with data from a CSV file containing the relevant information, and automatically send the mail to all the company mails listed in the CSV file.
 
 The script can be used to send multiple emails with personalized information to different companies, making it a valuable tool for individuals or organizations seeking sponsorship. This functionality allows users to create a personalized email template and automate the process of sending sponsorship requests to multiple companies.
 
