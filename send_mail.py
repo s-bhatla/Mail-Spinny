@@ -43,10 +43,8 @@ def sendMail(body, subject, recipient):
 
 
 #MAIN RUNNER CODE
-cols = ["company_name", "company_mail", "contact_name", "contact_number"] 
+
+cols = list(df.columns)
 for i in range(0, len(df.index)):
     LocalRecipient = df["company_mail"][i]
     sendMail(replaceWords(body, cols, i), subject, LocalRecipient)
-
-
-# sendMail(body, subject, "sujalincorrect@gmail.com")

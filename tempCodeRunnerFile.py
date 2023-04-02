@@ -1,1 +1,0 @@
-print(str(df[k][it]) + "yoyo\n")
